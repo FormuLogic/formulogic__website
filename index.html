@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormuLogic Official</title>
+    <link rel="icon" type="images/x-icon" href="./Images/logotype__img.png">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navigation-bar">
+            <div class="container">
+                <div class="navigation-bar__wrapper">
+                    <div class="navigation-bar__logotype">
+                        <a href="#" class="logotype">
+                            <img class="logotype__img" src="./Images/logotype__img.png" alt="#">
+                            FormuLogic
+                        </a>
+                    </div>
+                    <button class="header__burger-btn" id="burger-btn">
+                        <span class="header__burger-btn-line header__burger-btn-line_crossed"></span>
+                        <span class="header__burger-btn-line header__burger-btn-line_disabled"></span>
+                        <span class="header__burger-btn-line header__burger-btn-line_opened"></span>
+                    </button>
+                    <ul class="navigation-bar__menu">
+                        <li class="navigation-bar__menu-item">
+                            <a class="navigation-bar__menu-link" href="#about">О Нас, Приложении</a>
+                        </li>
+                        <li class="navigation-bar__menu-item">
+                            <a class="navigation-bar__menu-link" href="#possibilities">Возможности</a>
+                        </li>
+                        <li class="navigation-bar__menu-item">
+                            <a class="navigation-bar__menu-link" href="#frequent-questions">Частые Вопросы</a>
+                        </li>
+                    </ul>
+                    <div class="navigation-bar__downloading">
+                        <a class="navigation-bar__downloading-btn" href="./FormuLogic.zip"
+                            download="FormuLogic App">Скачать</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__body">
+                    <div class="info-block">
+                        <div class="title">
+                            Наша команда разработчиков - <span class="title_modified">FormuLogic</span> представляет
+                            приложение
+                        </div>
+                        <div class="text">
+                            Наше приложение предлагает уникальную возможность проверить свои знания и навыки в области
+                            физики, проходя тесты и решая интересные задачи. Мы создали удобное и интуитивно понятное
+                            приложение, которое поможет вам легко и эффективно изучать эту увлекательную науку.
+                        </div>
+                        <button class="info-block__btn btn">Скачать</button>
+                    </div>
+                    <div class="about__picture-wrapper picture-wrapper">
+                        <img class="about__picture" src="./Images/about__img.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="possibilities" id="possibilities">
+            <div class="container">
+                <div class="possibilities__body">
+                    <div class="info-block">
+                        <div class="info-block__title">
+                            Используя наше приложение <span class="title_modified">вы получите возможности:</span>
+                        </div>
+                    </div>
+                    <div class="possibilities__picture-wrapper picture-wrapper">
+                        <img class="possibilities__picture" src="./Images/card-info__img.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulas">
+            <div class="container">
+                <div class="formulas__body">
+                    <div class="formulas__picture-wrapper picture-wrapper">
+                        <img class="formulas__picture" src="./Images/charts__img.png" alt="#">
+                    </div>
+                    <div class="info-block">
+                        <div class="info-block__title title">
+                            <span class="title_modified">Повторить формулы в тестовом формате</span>
+                        </div>
+                        <div class="info-block__text text">
+                            Повторяйте или запоминайте физические формулы посредством тестирования
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tasks">
+            <div class="container">
+                <div class="tasks__body">
+                    <div class="info-block">
+                        <div class="info-block__title title">
+                            <span class="title_modified">Возможность решать физические задачи</span>
+                        </div>
+                        <div class="info-block__text text">
+                            Решайте различные задачи, применяя формулы, изученные ранее
+                        </div>
+                    </div>
+                    <div class="tasks__picture-wrapper picture-wrapper">
+                        <img class="tasks__picture" src="./Images/support__img.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="time-trial">
+            <div class="container">
+                <div class="time-trial__body">
+                    <div class="time-trial__picture-wrapper picture-wrapper">
+                        <img class="time-trial__picture" src="./Images/support__img.png" alt="#">
+                    </div>
+                    <div class="info-block">
+                        <div class="info-block__title title">
+                            <span class="title_modified">Возможность испытать свои знания в режиме на время</span>
+                        </div>
+                        <div class="info-block__text text">
+                            Решайте различные задачи, применяйте ранее изученные формулы на скорость
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="tariffs" id="tariffs">
+            <div class="container">
+                <div class="tariffs__caption">
+                    <div class="tariffs__title">
+                        An exceptional service, <span class="title_modified">at the right price</span>
+                    </div>
+                    <div class="tariffs__text">
+                        Start with our free plan and switch to premium as you grow.
+                    </div>
+                </div>
+                <div class="tariffs__cards">
+                    <div class="card">
+                        <div class="card__description">
+                            <div class="card__type">
+                                Free
+                            </div>
+                            <div class="card__info">
+                                <div class="card__price">
+                                    $0/m
+                                </div>
+                                <div class="card__text">
+                                    Manage your business with a simple and efficient account.
+                                </div>
+                            </div>
+                            <div class="card__actions">
+                                <button class="card__btn card__btn_solid">
+                                    Get Started
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card__view">
+                            <img class="card__img" src="./Images/tariffs__img.png" alt="#">
+                        </div>
+                        <div class="card__benefits">
+                            <ul class="card__benefits-menu">
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Free payments to other draft accounts</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Free ATM withdrawals in Dollar up to $250 per month</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>10 free local transfers</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Prepaid debit cards</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Virtual cards</p>
+                                </li>
+                                <li class="card__benefits-item card__benefits-item_disabled">
+                                    <img class="card__benefits-icn_disabled" src="./Images/card__benefits-icn_disabled.png" alt="#">
+                                    <p>Priority 24/7 support</p>
+                                </li>
+                                <li class="card__benefits-item card__benefits-item_disabled">
+                                    <img class="card__benefits-icn_disabled" src="./Images/card__benefits-icn_disabled.png" alt="#">
+                                    <p>Exchange 24 currencies</p>
+                                </li>
+                                <li class="card__benefits-item card__benefits-item_disabled">
+                                    <img class="card__benefits-icn_disabled" src="./Images/card__benefits-icn_disabled.png" alt="#">
+                                    <p>Multi-user access</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__description">
+                            <div class="card__type">
+                                Premium
+                            </div>
+                            <div class="card__info">
+                                <div class="card__price">
+                                    $8/m
+                                </div>
+                                <div class="card__text">
+                                    Priority support and multi-user access to maximize your productivity.
+                                </div>
+                            </div>
+                            <div class="card__actions">
+                                <button class="card__btn card__btn_outlined">
+                                    Get Started
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card__view">
+                            <img class="card__img" src="./Images/tariffs__img.png" alt="#">
+                        </div>
+                        <div class="card__benefits">
+                            <ul class="card__benefits-menu">
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Free payments to other draft accounts</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Free ATM withdrawals in Dollar up to $250 per month</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>10 free local transfers</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Prepaid debit cards</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Virtual cards</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Priority 24/7 support</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Exchange 24 currencies</p>
+                                </li>
+                                <li class="card__benefits-item">
+                                    <img class="card__benefits-icn" src="./Images/benefits__icon.png" alt="#">
+                                    <p>Multi-user access</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="frequent-questions" id="frequent-questions">
+            <div class="container">
+                <div class="frequent-questions__caption">
+                    <div class="frequent-questions__title title">
+                        Часто <span class="title_modified">задаваемые вопросы</span>
+                    </div>
+                    <div class="frequent-questions__text">
+                        Здесь будут собраны наиболее часто задаваемые вопросы и ответы на них
+                    </div>
+                </div>
+                <div class="frequent-questions__accordion">
+                    <div class="accordion" id="accordionQuestions">
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne">
+                                    Вопрос #1
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseOne"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ab.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">
+                                    Вопрос #2
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseTwo"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body ">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, voluptate.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree">
+                                    Вопрос #3
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseThree"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour">
+                                    Вопрос #4
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseFour"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ab.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive">
+                                    Вопрос #5
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseFive"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ab.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__copyright">
+                    <a href="#" class="logotype logotype_modified">
+                        <img class="logotype__img" src="./Images/logotype__img.png" alt="#">
+                        FormuLogic
+                    </a>
+                    <div class="email">
+                        formulogic@mail.ru
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <ul class="footer__links-column">
+                        <li class="links-column__item">
+                            <a class="footer__link" href="https://t.me/+ZhtVFEi0h-0wN2Ri" target="_blank">Команда</a>
+                        </li>
+                        <li class="links-column__item links-column__item_middle">
+                            <a class="footer__link" href="https://t.me/+ZhtVFEi0h-0wN2Ri" target="_blank">Телеграмм-Канал</a>
+                        </li>
+                        <li class="links-column__item">
+                            <a class="footer__link" href="./FormuLogic.zip" download="FormuLogic App">Приложение</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__links-column">
+                        <li class="links-column__item">
+                            <a class="footer__link" href="#about">О Нас, Приложении</a>
+                        </li>
+                        <li class="links-column__item links-column__item_middle">
+                            <a class="footer__link" href="#possibilities">Возможности</a>
+                        </li>
+                        <li class="links-column__item">
+                            <a class="footer__link" href="#frequent-questions">Частые Вопросы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top">
+        <i class="scroll-top__icn fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script defer src="./JavaScript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/64a0e35597.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
