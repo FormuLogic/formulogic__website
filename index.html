@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormuLogic Official</title>
+    <link rel="icon" type="images/x-icon" href="./Images/logotype__img.png">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navigation-bar">
+            <div class="container">
+                <div class="navigation-bar__wrapper">
+                    <div class="navigation-bar__logotype">
+                        <a href="#" class="logotype">
+                            <img class="logotype__img" src="./Images/logotype__img.png" alt="#">
+                            FormuLogic
+                        </a>
+                    </div>
+                    <button class="header__burger-btn" id="burger-btn">
+                        <span class="header__burger-btn-line header__burger-btn-line_crossed"></span>
+                        <span class="header__burger-btn-line header__burger-btn-line_disabled"></span>
+                        <span class="header__burger-btn-line header__burger-btn-line_opened"></span>
+                    </button>
+                    <ul class="navigation-bar__menu">
+                        <li class="navigation-bar__menu-item">
+                            <a class="navigation-bar__menu-link" href="#about">О Нас, Приложении</a>
+                        </li>
+                        <li class="navigation-bar__menu-item">
+                            <a class="navigation-bar__menu-link" href="#possibilities">Возможности</a>
+                        </li>
+                        <li class="navigation-bar__menu-item">
+                            <a class="navigation-bar__menu-link" href="#frequent-questions">Частые Вопросы</a>
+                        </li>
+                    </ul>
+                    <div class="navigation-bar__downloading">
+                        <a class="navigation-bar__downloading-btn" href="./FormuLogic.zip"
+                            download="FormuLogic App">Скачать</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__body">
+                    <div class="info-block">
+                        <div class="title">
+                            Наша команда разработчиков - <span class="title_modified">FormuLogic</span> представляет
+                            приложение
+                        </div>
+                        <div class="text">
+                            Наше приложение предлагает уникальную возможность проверить свои знания и навыки в области
+                            физики, проходя тесты и решая интересные задачи. Мы создали удобное и интуитивно понятное
+                            приложение, которое поможет вам легко и эффективно изучать эту увлекательную науку.
+                        </div>
+                        <a class="info-block__btn btn" href="./FormuLogic.zip" download="FormuLogic App">Скачать</a>
+                    </div>
+                    <div class="about__picture-wrapper picture-wrapper">
+                        <img class="about__picture" src="./Images/about__img.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="possibilities" id="possibilities">
+            <div class="container">
+                <div class="possibilities__body">
+                    <div class="info-block">
+                        <div class="info-block__title">
+                            Используя наше приложение <span class="title_modified">вы получите возможности:</span>
+                        </div>
+                    </div>
+                    <div class="possibilities__picture-wrapper picture-wrapper">
+                        <img class="possibilities__picture" src="./Images/card-info__img.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulas">
+            <div class="container">
+                <div class="formulas__body">
+                    <div class="formulas__picture-wrapper picture-wrapper">
+                        <img class="formulas__picture" src="./Images/charts__img.png" alt="#">
+                    </div>
+                    <div class="info-block">
+                        <div class="info-block__title title">
+                            <span class="title_modified">Повторить формулы в тестовом формате</span>
+                        </div>
+                        <div class="info-block__text text">
+                            Повторяйте или запоминайте физические формулы посредством тестирования
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tasks">
+            <div class="container">
+                <div class="tasks__body">
+                    <div class="info-block">
+                        <div class="info-block__title title">
+                            <span class="title_modified">Возможность решать физические задачи</span>
+                        </div>
+                        <div class="info-block__text text">
+                            Решайте различные задачи, применяя формулы, изученные ранее
+                        </div>
+                    </div>
+                    <div class="tasks__picture-wrapper picture-wrapper">
+                        <img class="tasks__picture" src="./Images/support__img.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="time-trial">
+            <div class="container">
+                <div class="time-trial__body">
+                    <div class="time-trial__picture-wrapper picture-wrapper">
+                        <img class="time-trial__picture" src="./Images/support__img.png" alt="#">
+                    </div>
+                    <div class="info-block">
+                        <div class="info-block__title title">
+                            <span class="title_modified">Возможность испытать свои знания в режиме на время</span>
+                        </div>
+                        <div class="info-block__text text">
+                            Решайте различные задачи, применяйте ранее изученные формулы на скорость
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="frequent-questions" id="frequent-questions">
+            <div class="container">
+                <div class="frequent-questions__caption">
+                    <div class="frequent-questions__title title">
+                        Часто <span class="title_modified">задаваемые вопросы</span>
+                    </div>
+                    <div class="frequent-questions__text">
+                        Здесь собраны наиболее часто задаваемые вопросы и ответы на них
+                    </div>
+                </div>
+                <div class="frequent-questions__accordion">
+                    <div class="accordion" id="accordionQuestions">
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne">
+                                    Что из себя представляет ваше приложение?
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseOne"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body">
+                                    Наш продукт представляет собой приложение, дающее возможность проверить свои знания
+                                    и навыки в области физики, проходя тесты и решая интересные задачи.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">
+                                    Есть-ли возможность добавления формулы или задачи при её
+                                    отсутствии?
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseTwo"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body ">
+                                    Да, наше приложение имеет встроенное сочетание клавиш, предлагаемое учителю, при
+                                    активации которого
+                                    открывается панель разработчика, с её помощью можно внедрить необходимую формулу или
+                                    задачу.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree">
+                                    Для кого предназначено и актуально приложение?
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseThree"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body">
+                                    Приложение FormuLogic предназначено для учеников с 7 по 11 классы включительно и
+                                    учителей-предметников по Физике
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour">
+                                    Каково будущее проекта?
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseFour"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body">
+                                    В будущем мы планируем добавить разделение режимов по уровням сложности. В
+                                    зависимости от сложности будут изменяться задачи, формулы и время на ответ. Также,
+                                    мы хотели бы реализовать личные кабинеты для учеников и учителей.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item accordion__item">
+                            <h2 class="accordion-header accordion__header">
+                                <button class="accordion-button accordion__btn collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive">
+                                    Чем уникально ваше приложение?
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse" id="collapseFive"
+                                data-bs-parent="#accordionQuestions">
+                                <div class="accordion-body accordion__body">
+                                    В первую очередь, приложение уникально своей задумкой и исполнением, данное
+                                    приложение было полностью сделано с помощью стандартной библиотеки
+                                    визуализации tkinter, оно полностью функционально и актуально. Также, 
+                                    оно уникально задумкой авторов: сделать простое в освоении приложение, работающие на любом компьютере, поддерживающем язык программирования
+                                    Python с операционной системой Windows.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__copyright">
+                    <a href="#" class="logotype logotype_modified">
+                        <img class="logotype__img" src="./Images/logotype__img.png" alt="#">
+                        FormuLogic
+                    </a>
+                    <div class="email">
+                        formulogic@mail.ru
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <ul class="footer__links-column">
+                        <li class="links-column__item">
+                            <a class="footer__link" href="https://github.com/FormuLogic" target="_blank">GitHub</a>
+                        </li>
+                        <li class="links-column__item links-column__item_middle">
+                            <a class="footer__link" href="https://t.me/+ZhtVFEi0h-0wN2Ri"
+                                target="_blank">Телеграмм-Канал</a>
+                        </li>
+                        <li class="links-column__item">
+                            <a class="footer__link" href="./FormuLogic.zip" download="FormuLogic App">Приложение</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__links-column">
+                        <li class="links-column__item">
+                            <a class="footer__link" href="#about">О Нас, Приложении</a>
+                        </li>
+                        <li class="links-column__item links-column__item_middle">
+                            <a class="footer__link" href="#possibilities">Возможности</a>
+                        </li>
+                        <li class="links-column__item">
+                            <a class="footer__link" href="#frequent-questions">Частые Вопросы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top">
+        <i class="scroll-top__icn fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script defer src="./JavaScript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/64a0e35597.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
